@@ -33,6 +33,22 @@ public class Vetor {
 //		for (int i =0; i < notas.length; i ++) {
 //			System.out.println(notas[i]);
 //		}
+		
+//		Matriz
+		String [][] carro = new String[2][2];
+		
+		carro [0] [0] = "Fusca";
+		carro [0] [1] = "1963";
+		carro [1] [0] = "Fusca";
+		carro [1] [1] = "1973";
+		
+		for (int i = 0; i < carro.length; i++) {
+			for (int j = 0; j < carro.length; j++) {
+				System.out.print(carro[i][j]+" ");
+			}
+			System.out.println();
+		}
+		
 
 	}
 
