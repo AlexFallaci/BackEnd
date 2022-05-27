@@ -35,7 +35,7 @@ public class Vetor {
 //		}
 		
 //		Matriz
-		String [][] carro = new String[2][2];
+		String [][] carro = new String[2][3];
 		
 		carro [0] [0] = "Fusca";
 		carro [0] [1] = "1963";
